@@ -28,6 +28,8 @@ let d=parseInt(a)
  display.innerText=`$${calcTen()}`
 
   billTotal.innerText=`Your total bill (with tip) is $${calcTen()+d}`
+  formt.elements.other.value=''
+  form.elements.tip.value=''
 })
 
 
@@ -47,6 +49,8 @@ twentyP.addEventListener('click',(e)=>{
 
   display.innerText=`$${calcTwenty()}`
   billTotal.innerText=`Your total bill (with tip) is $${calcTwenty()+d}`
+  formt.elements.other.value=''
+  form.elements.tip.value=''
 })
 
 
@@ -65,4 +69,6 @@ otherb.addEventListener('click',(e)=>{
   let b=parseInt(a)
   display.innerText=`$${calcOther()}`
   billTotal.innerText=`Your total bill (with tip) is $${calcOther()+b}`
+  formt.elements.other.value=''
+  form.elements.tip.value=''
 })
