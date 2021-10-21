@@ -1,0 +1,12 @@
+body{
+  text-align:center;
+}
+button{
+  border-radius:25px;
+  padding:.5em;
+  margin-top:.5em;
+  background:lightblue;
+}
+input{
+  border-radius:25px;
+}
